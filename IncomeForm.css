@@ -1,0 +1,54 @@
+/* ReportsPage.css */
+
+#income {
+    margin-top: 20px;
+    background-color: rgba(249, 249, 249, 0.8); /* Translucent white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #income h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #income form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #income form div {
+    margin-bottom: 15px;
+  }
+  
+  #income form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  #income form input[type="date"],
+  #income form input[type="number"],
+  #income form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #income form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #income form button:hover {
+    background-color: #0056b3;
+  }
+  

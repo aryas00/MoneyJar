@@ -1,0 +1,31 @@
+.header {
+    background-color: #f3d9d9; /* Pastel pink */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #000; /* Black */
+}
+
+.title {
+    margin-bottom: 5px;
+    color: #000; /* Black */
+}
+
+.subtitle {
+    margin-top: 0;
+    font-size: 14px;
+    color: #000; /* Black */
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+.nav a {
+    margin-right: 10px;
+    color: #000; /* Black */
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}

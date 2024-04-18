@@ -1,0 +1,25 @@
+/* CSS Styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d9f1f3; /* Pastel pink */
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    color: #000; /* Black */
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 24px;
+    color: #000; /* Black */
+}

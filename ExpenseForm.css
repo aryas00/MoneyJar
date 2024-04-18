@@ -1,0 +1,57 @@
+#expenses {
+    margin-top: 20px;
+  }
+
+  #expenses form {
+    background-color: rgba(249, 249, 249, 0.8); /* Translucent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  #expenses h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #expenses form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #expenses form div {
+    margin-bottom: 15px;
+  }
+  
+  #expenses form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  #expenses form input[type="date"],
+  #expenses form input[type="number"],
+  #expenses form select,
+  #expenses form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #expenses form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #expenses form button:hover {
+    background-color: #0056b3;
+  }
+  

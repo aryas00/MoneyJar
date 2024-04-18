@@ -1,0 +1,51 @@
+/* Reports.css */
+#reports {
+    margin-top: 20px;
+  }
+  
+  #reports h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #reports > div {
+    display: flex;
+    background-color: #f0f8ff; /* Pastel blue */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  #reports > div > div {
+    width: 50%;
+  }
+  
+  #reports h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #reports table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #reports table th,
+  #reports table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  #reports table th {
+    background-color: #f2f2f2;
+  }
+  
+  #reports table tbody tr:nth-child(even) {
+    background-color: #fafafa; /* Lighter pastel blue */
+  }
+  
+  #reports table tbody tr:hover {
+    background-color: #f0f0f0; /* Even lighter pastel blue */
+  }
+  
